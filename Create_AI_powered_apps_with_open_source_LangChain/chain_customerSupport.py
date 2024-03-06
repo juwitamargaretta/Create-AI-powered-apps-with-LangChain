@@ -5,7 +5,7 @@ from langchain.prompts import PromptTemplate
 import os
 
 # Mengatur LLM
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 llm = ChatOpenAI(temperature=0.9)
 
 def handle_complaint(komplain: str) -> str:
